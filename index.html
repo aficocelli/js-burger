@@ -20,7 +20,7 @@
       <!-- lista ingredienti -->
       <main>
         <!-- inserimento nome burger -->
-        <input type="text" placeholder="Name Your Burger">
+        <input id="name-burger" type="text" placeholder="Name Your Burger">
         <!-- /inserimento nome burger -->
 
         <!-- scelta ingredienti -->
@@ -29,42 +29,42 @@
           <li>
             <label for="cheese">
               Cheese
-              <input id="cheese" type="radio">
+              <input id="cheese" class="ingredients" type="checkbox" value="3">
               Add
             </label>
           </li>
           <li>
             <label for="egg">
               Egg
-              <input id="egg" type="radio">
+              <input id="egg" class="ingredients" type="checkbox" value="5">
               Add
             </label>
           </li>
           <li>
             <label for="mustard">
               Mustard
-              <input id="mustard" type="radio">
+              <input id="mustard" class="ingredients" type="checkbox" value="1">
               Add
             </label>
           </li>
           <li>
             <label for="tomato">
               Tomato
-              <input id="tomato" type="radio">
+              <input id="tomato" class="ingredients" type="checkbox" value="3">
               Add
             </label>
           </li>
           <li>
             <label for="lettuce">
               Lettuce
-              <input id="lettuce" type="radio">
+              <input id="lettuce" class="ingredients" type="checkbox" value="3">
               Add
             </label>
           </li>
           <li>
             <label for="ketchup">
               Ketchup
-              <input id="ketchup" type="radio">
+              <input id="ketchup" class="ingredients" type="checkbox" value="1">
               Add
             </label>
           </li>
@@ -88,7 +88,7 @@
       <footer>
         <!--totale -->
         <div>Your Price</div>
-        <div>$ 50</div>
+        <div id = "total">$ 50</div>
         <!--/totale -->
       </footer>
       <!-- /footer con total -->
