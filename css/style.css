@@ -31,10 +31,38 @@ header{
 /* main */
 main{
   padding:30px;
+  background-color: #fff;
 }
 /* campo scelta nome */
 #name-burger{
-
+  font-size: 24px;
+  border:none;
+  font-weight: 400;
 }
 /* /campo scelta nome */
+
+.main-part h2{
+
+  margin: 20px 0;
+
+}
+.lista-ingredienti{
+  display:flex;
+  flex-wrap:wrap;
+
+}
+.lista-ingredienti li{
+  width:50%;
+  list-style-type: none;
+}
+.lista-ingredienti img{
+  height:40px;
+  vertical-align: middle;
+  margin-right:10px;
+  padding: 5px 0;
+}
+.ingredients{
+  margin: 0 10px;
+
+}
 /* /main */
