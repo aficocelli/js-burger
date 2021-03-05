@@ -1,0 +1,40 @@
+/* MIX */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FFF5E2;
+  font-family: arial;
+}
+
+.container{
+  width:50%;
+}
+/* /MIX */
+
+/* header */
+header{
+  padding: 50px 30px 30px 30px;
+  background-color: #FDBB40;
+  position:relative;
+}
+.burger-top{
+  position:absolute;
+  right: -31px;
+  bottom: -42px;
+}
+/* /header */
+
+/* main */
+main{
+  padding:30px;
+}
+/* campo scelta nome */
+#name-burger{
+
+}
+/* /campo scelta nome */
+/* /main */
