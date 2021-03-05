@@ -54,3 +54,12 @@ tastoCalcolo.addEventListener ( "click",
   }
 
 );
+
+var customChecked = document.getElementsByClassName('custom-check');
+console.log(customChecked);
+
+choice.addEventListener("click",
+  function(){
+    alert(ciao);
+  }
+);

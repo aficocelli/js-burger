@@ -61,7 +61,7 @@ main{
 }
 .lista-ingredienti li{
   list-style-type: none;
-  
+
 }
 .lista-ingredienti img{
   height:45px;
@@ -71,7 +71,36 @@ main{
 }
 .ingredients{
   margin: 0 10px;
+  position:relative;
 }
+.ingredients::after{
+  display:block;
+  height:15px;
+  width:15px;
+  background-color:#D33359;
+  border-radius:2px;
+  content:"";
+}
+/* .ingredients::before{
+  display:none;
+  font-family: "Font Awesome 5 Free";
+  content:"\f00c";
+  font-weight:900;
+  position:absolute;
+  font-size:20px;
+  top:-5px;
+} */
+.lista-ingredienti label{
+  position:relative;
+}
+.custom-check{
+  position:absolute;
+  right: 37px;
+  bottom: 0px;
+  font-size:20px;
+  display:none;
+}
+
 .plus{
   color:#D33359;
 }
