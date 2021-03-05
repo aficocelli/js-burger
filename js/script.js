@@ -14,16 +14,6 @@ var somma = 50;
 // array definiti
 var codeCoupon = ["burger20", "123", "sconto21"];
 
-var scelta = document.getElementById('scelta');
-console.log(scelta);
-document.getElementById('cheese').addEventListener("click",
-  function(){
-    scelta.style.opacity = "1";
-  }
-);
-console.log(document.getElementById('cheese').checked);
-
-
 
 // Evento al click del pulsante calculate
 tastoCalcolo.addEventListener ( "click",
@@ -66,4 +56,53 @@ tastoCalcolo.addEventListener ( "click",
 
 );
 
-var customChecked = document.getElementsByClassName('custom-check');
+// personalizzazione checkbox
+
+var scelta = document.getElementById('scelta');
+
+document.getElementById('cheese').addEventListener("click",
+function(){
+  scelta.style.opacity = "1";
+}
+);
+
+
+var eggc = document.getElementById('egg-c');
+
+document.getElementById('egg').addEventListener("click",
+function(){
+  eggc.style.opacity = "1";
+}
+);
+
+var mustc = document.getElementById('must-c');
+
+document.getElementById('mustard').addEventListener("click",
+function(){
+  mustc.style.opacity = "1";
+}
+);
+
+var tomc = document.getElementById('tom-c');
+
+document.getElementById('tomato').addEventListener("click",
+function(){
+  tomc.style.opacity = "1";
+}
+);
+
+var letc = document.getElementById('let-c');
+
+document.getElementById('lettuce').addEventListener("click",
+function(){
+  letc.style.opacity = "1";
+}
+);
+
+var ketc = document.getElementById('ket-c');
+
+document.getElementById('ketchup').addEventListener("click",
+function(){
+  ketc.style.opacity = "1";
+}
+);
