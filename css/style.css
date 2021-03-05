@@ -81,7 +81,7 @@ main{
   border-radius:2px;
   content:"";
 }
-/* .ingredients::before{
+.ingredients::before{
   display:none;
   font-family: "Font Awesome 5 Free";
   content:"\f00c";
@@ -89,16 +89,9 @@ main{
   position:absolute;
   font-size:20px;
   top:-5px;
-} */
-.lista-ingredienti label{
-  position:relative;
 }
-.custom-check{
-  position:absolute;
-  right: 37px;
-  bottom: 0px;
-  font-size:20px;
-  opacity:0;
+.ingredients:checked::before{
+  display:block;
 }
 
 .plus{
