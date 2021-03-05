@@ -9,7 +9,90 @@
   </head>
   <body>
 
+    <div class="container">
 
+      <!-- header + titolo -->
+      <header>
+        <h1>Create Your Burger</h1>
+      </header>
+      <!-- /header + titolo -->
+
+      <!-- lista ingredienti -->
+      <main>
+        <!-- inserimento nome burger -->
+        <input type="text" placeholder="Name Your Burger">
+        <!-- /inserimento nome burger -->
+
+        <!-- scelta ingredienti -->
+        <h2>Ingredients</h2>
+        <ul>
+          <li>
+            <label for="cheese">
+              Cheese
+              <input id="cheese" type="radio">
+              Add
+            </label>
+          </li>
+          <li>
+            <label for="egg">
+              Egg
+              <input id="egg" type="radio">
+              Add
+            </label>
+          </li>
+          <li>
+            <label for="mustard">
+              Mustard
+              <input id="mustard" type="radio">
+              Add
+            </label>
+          </li>
+          <li>
+            <label for="tomato">
+              Tomato
+              <input id="tomato" type="radio">
+              Add
+            </label>
+          </li>
+          <li>
+            <label for="lettuce">
+              Lettuce
+              <input id="lettuce" type="radio">
+              Add
+            </label>
+          </li>
+          <li>
+            <label for="ketchup">
+              Ketchup
+              <input id="ketchup" type="radio">
+              Add
+            </label>
+          </li>
+        </ul>
+        <!-- /scelta ingredienti -->
+
+        <!-- inserimento coupon -->
+        <label for="coupon">Discount Coupon</label>
+        <input type="text" id="coupon">
+        <!-- /inserimento coupon -->
+
+        <!-- tasto calcolo -->
+        <div class="calcolo">
+          <button>calculate</button>
+        </div>
+        <!-- /tasto calcolo -->
+      </main>
+      <!-- /lista ingredienti -->
+
+      <!-- footer con total -->
+      <footer>
+        <!--totale -->
+        <div>Your Price</div>
+        <div>$ 50</div>
+        <!--/totale -->
+      </footer>
+      <!-- /footer con total -->
+    </div>
 
 
 
