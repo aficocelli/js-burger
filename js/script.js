@@ -9,7 +9,7 @@ var coupon = document.getElementById('coupon');
 
 var total = document.getElementById('total');
 
-var somma = 50;
+
 
 // array definiti
 var codeCoupon = ["burger20", "123", "sconto21"];
@@ -23,6 +23,8 @@ tastoCalcolo.addEventListener ( "click",
     // 1 verificare che sia stato inserito il nome burger
     if (burgerName.value != "") {
 
+      var somma = 50;
+      
       // 2 verificare quali input radio sono fleggati
       for (var i = 0; i < choice.length; i++) {
 
